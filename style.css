@@ -1,0 +1,455 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #283618;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', sans-serif;
+    margin: auto;
+}
+
+body {
+    color: #FEFAE0;
+    text-align: center;
+}
+
+header {
+    background-image: url(logo.png);
+    background-color: #BC6C25;
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #FEFAE0;
+    font-size: 25px;
+    padding: .5em;
+    font-family: 'Tahoma', sans-serif;
+}
+
+header a {
+    color: #FEFAE0;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header a:link {
+    color: #FEFAE0;
+}
+
+header a:hover {
+    color: #606C38;
+}
+
+header:visited {
+    color: #FFFFFF;
+}
+
+
+h2 {
+    color: #FEFAE0;
+    text-align: left;
+    font-size: larger;
+}
+
+li {
+    display: inline;
+}
+
+nav {
+    background-color: #654236;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    position: sticky;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+nav ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 10px;
+    width: 100%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FEFAE0;
+}
+
+nav a:visited {
+    color: #FEFAE0;
+
+}
+
+nav a:hover {
+    color: #606C38;
+}
+
+main {
+    background-color: #283618;
+    color: #FFFFFF;
+    font-size: 25px;
+    font-family: Garamond, serif;
+}
+
+main p {
+    color: #FEFAE0;
+    text-align: left;
+}
+
+main a {
+    text-decoration: underline;
+    text-decoration-color: #FEFAE0;
+}
+
+main a:link {
+    color: #FEFAE0;
+}
+
+main a:visited {
+    color: #FEFAE0;
+}
+
+main a:hover {
+    color: #DDA15E;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 6em 10em;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    background-color: #FEFAE0;
+    align-content: center;
+}
+
+table {
+    margin: auto;
+    width: 1000px;
+    border-spacing: 10px;
+    position: relative;
+}
+
+td, th {
+    padding: 15px;
+    font-family:'Times New Roman', serif;
+    border-style:groove;
+    border-color: #FEFAE0;
+}
+
+tr, th {
+    font-size: 21px;
+}
+
+tr:nth-of-type(odd) {
+    color: #FEFAE0
+}
+
+tr:first-of-type {
+    background-color: #BC6C25;
+    color: #FEFAE0;
+}
+
+.row {
+    margin: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#container {
+    background-color: #283618;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#submit {
+    grid-column: 2/3;
+}
+
+#desc {
+    display: block;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#textl {
+    float: left;
+    width: 50%;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#textr {
+    float: right;
+    width: 50%;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+#textl {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#textl p {
+    text-align: left;
+    padding: 10px 10px;
+}
+
+#textr {
+    text-align: right;
+    padding: 10px 10px;
+}
+
+#textr p {
+    text-align: right;
+    padding: 10px 10px;
+}
+
+#title {
+    font-size: 32px;
+}
+
+#bodyt {
+    font-size: 48px;
+}
+
+#tiger {
+    background-image: url(tiger.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    height: 800px;
+    width: auto;
+}
+
+#sunset {
+    background-image: url(sunset.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    float: right;
+}
+
+/* African Wildlife */
+
+#cheetah {
+    background-image: url(cheetah.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#rhino {
+    background-image: url(rhino.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: left;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#elephant {
+    background-image: url(elephant.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#damagaze {
+    background-image: url(damagaze.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: left;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+/* Sealife */
+
+#gseaturt {
+    background-image: url(seaturtle.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: left;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#hshark {
+    background-image: url(hshark.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#mseal {
+    background-image: url(mseal.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: left;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#childolph {
+    background-image: url(childolph.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+/* Forest Life */
+
+#panda {
+    background-image: url(panda.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#nowl {
+    background-image: url(nowl.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: left;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+
+#orang {
+    background-image: url(orang.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: right;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+#tonkmonk {
+    background-image: url(tonkmonk.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 600px;
+    float: left;
+    position: relative;
+    padding: 10px 10px;
+    box-shadow: 10px 10px 50px #000000;
+}
+
+@media (max-width: 637px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav li {
+        border-bottom: #000000 2px solid;
+    }
+
+    #tiger {
+        width: auto;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+    #wrapper {
+        margin: auto;
+        width: 90%;
+    }
+}
+
+/* Responsive Animal Photos */
+
+@media (max-width: 1247px) {
+
+    #cheetah,
+    #rhino,
+    #elephant,
+    #damagaze,
+    #gseaturt,
+    #hshark,
+    #mseal,
+    #childolph,
+    #panda,
+    #nowl,
+    #orang,
+    #tonkmonk {
+        margin: auto;
+        height: 25em;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    #sunset {
+        height: 350px;
+        width: 600px;
+    }
+}
